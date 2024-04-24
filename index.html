@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/3f3ad2ed9d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/screenshot.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <!-- close icon -->
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <!-- menu icon -->
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+      </nav>
+      <div class="header-text"></div>
+      <p>Software Engineer</p>
+      <h1>Milan Page<span><br><br>“Design is not for philosophy, it's for life.”</span><br> - Issey Miyake</h1>
+    </div>
+  </div>
+ <!------------about------- -->
+ <div id="about">
+  <div class="container">
+      <div class="row">
+          <div class="about-col-1">
+              <img src="images/headshot.jpeg" alt="">
+          </div>
+          <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <!-- <p>Yo Yo Yo, My names mateja and I like to flow. <br>If You can't get down with me then you gots to go. <br>You'll be running away like a little Ho, Ho. <br>
+            And i don't mean santa becuase thats my Bro Bro. <br>I got too much income these days, <br>i be making that cash Flow. <br>Woh Woh! That cash Flow, they be
+            running around me like they in Slow Mo. <br> Now if you thought this was just some mediocare flow, <br>then this beat be calling yo mama to my Door <br>
+            so she can get on her knees and watch her whole world blow. <br>Now dont get pervertated <br>I was only being assertive and giving a homie some support bro....Ho$</p>
+             -->
+             <p>As a Full Stack Developer, I bring a blend of expertise in frontend and backend technologies, including JavaScript, Python, Flask, and React. Drawing from my background as a professional dancer, I infuse my work with a unique set of qualities that set me apart. With a foundation built on discipline and a commitment to excellence, I approach every project with unwavering standards for quality.
+
+              My experience in the world of dance has honed my ability to rapidly adapt to new concepts and overcome challenges with ease. This agility, coupled with a natural inclination towards creativity, allows me to approach coding tasks with fresh perspectives and innovative solutions.
+              
+              From mastering intricate choreography to crafting elegant code, I thrive in environments that demand precision and creativity. I am passionate about leveraging technology to bring ideas to life and am dedicated to continuously expanding my skills to deliver exceptional results.</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" data-tab="skills" onclick="opentab('skills', event)">Skills</p>
+              <p class="tab-links" data-tab="experience" onclick="opentab('experience', event)">Experience</p>
+              <p class="tab-links" data-tab="content" onclick="opentab('content', event)">Content</p>
+          </div>
+
+          <div class="tab-contents" id="skills">
+            <ul>
+                <li><span class="span-text">Style</span><br>Attention To Detail</li>
+                <li><span class="span-text">Creativity</span><br>Attention To Detail</li>
+                <li><span class="span-text">Creativity</span><br>Attention To Detail</li>
+            </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span class="span-text">Style</span><br>Attention To Detail</li>
+                <li><span class="span-text">Creativity</span><br>Attention To Detail</li>
+                <li><span class="span-text">Creativity</span><br>Attention To Detail</li>
+            </ul>
+        </div>
+
+        <div class="tab-contents" id="content">
+            <ul>
+                <li><span class="span-text">Style</span><br>Attention To Detail</li>
+                <li><span class="span-text">Creativity</span><br>Attention To Detail</li>
+                <li><span class="span-text">Creativity</span><br>Attention To Detail</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- ------------------services---------------------------- -->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>description of service. </p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-chrome"></i>
+        <h2>Chrome Extensions</h2>
+        <p>description of service. </p>
+        <a href="#">Learn More</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-image"></i>
+        <i class="fa-solid fa-laptop"></i>
+        <h2>UI/UX Design</h2>
+        <p>description of service. </p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- ------------------portfolio---------------------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="images/cassyni.png" alt="">
+              <div class="layer">
+                <h3>Cassyni Chrome Extension</h3>
+                <p>AI powered fallacy detector</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/work-2.png" alt="">
+              <div class="layer">
+                <h3>Artist Portfolio</h3>
+                <p>Can make personalized website for you</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/work-3.png" alt="">
+              <div class="layer">
+                <h3>Design Board(whatever you call it)</h3>
+                <p>Can make Boards personally for you and your style.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See More</a>
+      </div>
+  </div>
+<!-- ------------------contact---------------------------- -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> milanvpage@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i> 971-678-1005 </p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/milan.page.79/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/livin_4the1/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/milan-page-527a39227/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <!-- it has two class names - btn and -btn2 -->
+        <!-- download lets us download the attached file in the browser it when its clicked on -->
+        <a href="images/my-cv.pdf" class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet" action="https://formsubmit.co/milanvpage@gmail.com" method="POST">
+          <input type="text" name="Name" placeholder="Name" autocomplete="given-name"required>
+          <input type="number" name="Email" placeholder="Age" autocomplete="given-name"required>
+          <input type="text" name="Studio" placeholder="Studio" autocomplete="given-name"required>
+          <input type="text" name="Style" placeholder="Style" autocomplete="given-name"required>
+          <!-- <input type="text" name="Competition" placeholder="Competition" autocomplete="given-name" >
+          <input type="text" name="Age Group" placeholder="Age Group" autocomplete="given-name">
+          <input type="text" name="Awards" placeholder="Awards" autocomplete="given-name"> -->
+          <!-- <input type="text" name="Style/Category" placeholder="Style/Category" autocomplete="given-name"> -->
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        
+        <!-- <form name="contact-form" action="https://formsubmit.co/0fa0be8d306c9a5b0a9a93c62639fdc8" method="POST" onsubmit="submitContactForm(); return false;">
+          <input type="hidden" name="_subject" value="New Email for TMM!">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="email" name="email" placeholder="Email Address" autocomplete="email">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/#contact">
+          <input type="text" name="Name" placeholder="Your Name" autocomplete="given-name" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+      </form>
+      <span id="msg"></span>       -->
+      <!-- <form id="contactForm">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      
+        <button id="submit" class="btn btn2" type="button" onclick="submitForm()">Submit</button>
+      </form>
+      <p id="successMessage"></p> -->
+
+      </div>
+      <div class="copyright">
+        <!-- Option + G creates the copyright symbol © -->
+        <p>Copyright © The Mateja Method. Designed with <i class="fa-solid fa-heart"></i> by The Mateja Method</p>
+      </div>
+  </div>
+</div>
+
+
+
+<script>// Contact Form
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzDgMija_uuldgXqKiMnu-bxDP46OuSmv9r9EDt7y0dHKYv9__vufqgHkC_lJib9ZJx/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = 'Message sent Successfully';
+          // hide message after it's displayed
+          setTimeout(function () {
+            msg.innerHTML = '';
+          }, 5000); // set to 5000 milliseconds - so after 5 seconds, the message will be removed
+          // then the form will reset
+          form.reset();
+        })
+        .catch(error => console.error('Error!', error.message));
+    });
+    </script>
+
+
+    <script>
+      function submitForm() {
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+    
+        const mailtoLink = `mailto:milanvpage@gmail.com?subject=New Email from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0D%0A%0D%0AReply%20to%3A%20${encodeURIComponent(email)}`;
+    
+        // Open the user's default email client
+        window.location.href = mailtoLink;
+
+        // Display success message
+        const successMessage = document.getElementById('successMessage');
+        successMessage.textContent = 'Message sent successfully!';
+
+        // Clear form after 5 seconds
+        setTimeout(() => {
+          successMessage.textContent = '';
+          document.getElementById('contactForm').reset();
+        }, 5000);
+  }
+    </script>
+<script src="app.js"></script>
+</body>
+</html>

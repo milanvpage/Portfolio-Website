@@ -1,0 +1,17 @@
+
+
+
+
+1. create links to web design, chrome extensions, UI/UX design
+
+2. fix javascript code for "Skills Experience Content" in About Me section
+
+3. my My work clickable, so it brings you to the location of my projects
+
+4. Fix Contact me form
+
+5. Create CV
+
+6. Change Colors of Website
+
+7.
